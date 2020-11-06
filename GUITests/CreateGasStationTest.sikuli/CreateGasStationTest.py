@@ -1,0 +1,16 @@
+#admin alread logged in and current location is http://localhost:8080/admin
+while(not exists("1590776911199.png", 0.01)):
+    wheel(Location(300,300), WHEEL_DOWN, 2)
+click("1590770841947.png")
+type("gstest")
+click("1590770876921.png")
+type("via roma")
+wait("1590754455747.png")
+click("1590754455747.png")
+click("1590771004272.png")
+click("1590767707801.png")
+click("1590771200968.png")
+click("1590771053601.png")
+wait("1590777544412.png")
+wheel(Location(300,300), WHEEL_DOWN, 4)
+find("1590774715579.png")
